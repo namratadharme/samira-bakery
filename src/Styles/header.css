@@ -1,0 +1,72 @@
+.nav-link {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.active-link {
+  border-top: 3px solid #ffdb89;
+  width: 120px;
+  color: #ffdb89 !important;
+  padding: 5px 10px;
+}
+.active-link:hover {
+  color: white;
+}
+.nav-bar {
+  display: flex;
+  gap: 50px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  padding: 8px 35px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(248, 183, 62);
+  color: white;
+  font-weight: 900;
+}
+@media (max-width: 768px) {
+  /* Navbar height fix */
+  .navbar {
+    height: auto !important;
+    padding: 10px 0;
+  }
+
+  /* Nav links vertical column */
+  .nav-bar {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    font-size: 17px;
+  }
+
+  /* Active link width controlled */
+  .active-link {
+    width: auto !important;
+    padding: 3px 8px;
+    border-top: 2px solid #ffdb89;
+  }
+
+  /* Shop Now Button Center */
+  button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    margin: 10px auto 10px auto !important;
+
+    text-align: center;
+    justify-content: center;
+  }
+}

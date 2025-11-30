@@ -1,0 +1,54 @@
+.component-four {
+  display: flex;
+  background-color: #fff;
+  padding-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .component-four {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.card-one {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+.card-two {
+  display: flex;
+  flex: 1;
+  gap: 12px;
+}
+.img1 {
+  width: 380px;
+  height: 225px;
+  border-radius: 5px;
+}
+.img2 {
+  width: 380px;
+  height: 225px;
+  border-radius: 5px;
+}
+.heading-2 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+}
+.paragraph {
+  text-align: center;
+  line-height: 1.5rem;
+  letter-spacing: 0.2em;
+  color: #808286;
+  font-weight: 600;
+  font-size: 15px;
+}
+.span-text {
+  display: flex;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #939497;
+
+  font-family: "Poppins" sans-serif;
+}

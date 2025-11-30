@@ -1,0 +1,61 @@
+.component-one {
+  display: flex;
+  background-color: #9bcfcc;
+  padding: 20px;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .component-one {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.left-box {
+  flex: 1;
+  gap: 10px;
+  font-family: "Playfair Display", serif;
+}
+.right-box {
+  flex: 1;
+  gap: 8px;
+  padding-top: 22px;
+  font-family: "Playfair Display", serif;
+}
+.line {
+  width: 50%;
+  height: 1px;
+  background-color: black;
+}
+.component-btn {
+  padding: 8px;
+  border-radius: 20px;
+  color: black;
+  font-weight: 500;
+  font-size: 13px;
+  background-color: rgb(247, 195, 52);
+}
+.image1 {
+  background-image: url("https://static.wixstatic.com/media/3cdf51_f1c67fa1072a42878d37fe94a7ec5807~mv2.png/v1/crop/x_0,y_10,w_561,h_558/fill/w_218,h_217,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/unnamed.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 30%;
+}
+.image2 {
+  background-image: url("https://static.wixstatic.com/media/48c7ae_a80f040bc45b451aad8d2e4858e2aa17~mv2.png/v1/fill/w_277,h_207,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled%20design%20(5)_edited.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  width: 180px;
+  margin-top: 70px;
+}
+.image3 {
+  background-image: url("https://static.wixstatic.com/media/48c7ae_bfee8038444f45d4a3c96a1536e73955~mv2.png/v1/fill/w_214,h_214,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled%20design%20(6)_edited.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-self: center;
+  height: 170px;
+  width: 160px;
+  margin: -24px;
+  margin-top: -50px;
+}

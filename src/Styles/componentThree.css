@@ -1,0 +1,34 @@
+.blank-container {
+  display: flex;
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.full-image {
+  background-image: url("https://static.wixstatic.com/media/3cdf51_c870d539a86647dfb894ea15b30c78b8~mv2_d_3072_1399_s_2.jpg/v1/fill/w_980,h_641,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3cdf51_c870d539a86647dfb894ea15b30c78b8~mv2_d_3072_1399_s_2.jpg");
+  height: 250px;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 88px;
+  color: #fff;
+  font-weight: 500;
+  font-family: "playfair Display";
+}
+@media (max-width: 768px) {
+  .full-image {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+  }
+  .heading {
+    font-size: 60px;
+  }
+}

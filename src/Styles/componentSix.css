@@ -1,0 +1,49 @@
+.component-six {
+  display: flex;
+  height: auto;
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .component-six {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.card-1 {
+  display: flex;
+  flex: 1;
+}
+.line-text {
+  text-align: center;
+  color: #808286;
+  font-family: wfont;
+  line-height: 25px;
+}
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+}
+.img-1 {
+  height: 180px;
+  width: 50%;
+  border-radius: 5px;
+}
+.img-2 {
+  height: 180px;
+  width: 50%;
+  border-radius: 5px;
+}
+.img-3 {
+  height: 180px;
+  width: 50%;
+  border-radius: 5px;
+}
+.img-4 {
+  height: 180px;
+  width: 50%;
+  border-radius: 5px;
+}

@@ -12,13 +12,13 @@ function AboutPage() {
             <img src={about} alt="aboutImg" className="about-image" />
           </div>
           <div className="right-card">
-            <h1>About Us</h1>
+            <h2 className="about-heading">About Us</h2>
 
-            <h3>
+            <h6 className="about-head6">
               Hi! Our Bakery has been present for over 20 years in the city. We
               make the most of all our customers.
-            </h3>
-            <p>
+            </h6>
+            <p className="para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -30,8 +30,8 @@ function AboutPage() {
         </div>
         <div className="about-bakery">
           <div className="right-card">
-            <h2>About The Team</h2>
-            <p>
+            <h2 className="about-heading">About The Team</h2>
+            <p className="para">
               We are a team thats obsessed with creating moments - menu items,
               recipes, a new handshake, a silly sign that makes life lighter and
               brighter. Whether we are swirling up soft serve at your local

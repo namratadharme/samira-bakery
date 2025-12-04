@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import ima from "../assests/img.png";
 
 function Footer() {
   return (
@@ -18,12 +19,9 @@ function Footer() {
           </ul>
         </div>
         <div className="flex-1">
-          <img
-            src="https://static.wixstatic.com/media/3cdf51_30e08477205a41ed9fa8b1c0a507994f~mv2.png/v1/fill/w_212,h_212,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3cdf51_30e08477205a41ed9fa8b1c0a507994f~mv2.png"
-            alt="image"
-          />
+          <img src={ima} alt="image" className="lo-go" />
           <FontAwesomeIcon icon={faInstagram} size="2x" />
-          <span>@ 2016 by Eclairs Bakery</span>
+          <span>@ 2016 by Samira brownies Bakery</span>
         </div>
 
         <div className="flex-1"></div>

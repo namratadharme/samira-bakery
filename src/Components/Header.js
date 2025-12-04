@@ -1,10 +1,8 @@
 import react from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../assests/logo.avif";
 import "../Styles/header.css";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { NavLink } from "react-router-dom";
 
 function Header() {
@@ -53,10 +51,7 @@ function Header() {
                 Contact
               </NavLink>
             </Nav>
-            <button>
-              <FontAwesomeIcon icon={faCartShopping} />
-              SHOP NOW
-            </button>
+            <button>ONLINE MENU</button>
           </Navbar.Collapse>
         </Container>
       </Navbar>

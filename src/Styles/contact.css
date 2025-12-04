@@ -5,13 +5,18 @@
 }
 
 .contact-bg-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 78vh;
+  height: 100vh;
   background-image: url("https://static.wixstatic.com/media/3cdf51_ca74c46e43db437e8415864b8f6b7ebd~mv2.jpg/v1/fill/w_882,h_641,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3cdf51_ca74c46e43db437e8415864b8f6b7ebd~mv2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  z-index: 0;
   position: relative;
+  top: 0;
 }
 
 .bottom-container {
@@ -21,11 +26,11 @@
   padding: 10px;
   gap: 50px;
 }
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .contact-bg-img {
-    width: 100%;
-    height: 300px;
-    background-position: top;
+    background-attachment: scroll !important;
+    height: auto;
+    min-height: 300px;
   }
   .bottom-container {
     display: flex;
@@ -39,14 +44,16 @@
     align-items: center;
     justify-content: center;
   }
-  h3 {
+  .yellow h3 {
+    font-size: 12px;
     text-align: center;
   }
 }
 .add-img {
   flex: 1;
-  max-width: 300px;
+  max-width: 350px;
   max-height: 300px;
+  border-radius: 5px;
 }
 .bottom-container .common {
   display: flex;
@@ -112,5 +119,5 @@
   color: #404144;
   font-weight: 400;
   font-family: "Playfair Display", serif;
-  font-size: 21px;
+  font-size: 20px;
 }

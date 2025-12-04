@@ -13,13 +13,19 @@
   z-index: 0;
   gap: 10px;
 }
+.lo-go {
+  width: 150px;
+  height: 150px;
+}
 @media (max-width: 768px) {
   .background-image {
-    background-position: top;
-    height: 300px;
+    background-attachment: scroll !important;
+    height: auto;
+    min-height: 300px;
   }
   .lo-go {
-    height: 100px;
+    width: 130px;
+    height: 120px;
   }
   .mid-text {
     text-align: center;

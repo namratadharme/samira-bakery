@@ -9,6 +9,11 @@
     display: flex;
     flex-direction: column;
   }
+  .image1 {
+    width: 100%;
+    height: auto;
+    background-position-x: center;
+  }
 }
 .left-box {
   flex: 1;
@@ -27,7 +32,7 @@
   background-color: black;
 }
 .component-btn {
-  padding: 8px;
+  padding: 12px;
   border-radius: 20px;
   color: black;
   font-weight: 500;
@@ -38,8 +43,9 @@
   background-image: url("https://static.wixstatic.com/media/3cdf51_f1c67fa1072a42878d37fe94a7ec5807~mv2.png/v1/crop/x_0,y_10,w_561,h_558/fill/w_218,h_217,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/unnamed.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: 5px;
   height: 200px;
-  width: 30%;
+  width: 160px;
 }
 .image2 {
   background-image: url("https://static.wixstatic.com/media/48c7ae_a80f040bc45b451aad8d2e4858e2aa17~mv2.png/v1/fill/w_277,h_207,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled%20design%20(5)_edited.png");

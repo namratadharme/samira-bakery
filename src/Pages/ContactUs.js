@@ -1,12 +1,12 @@
 import React from "react";
 import "../Styles/contact.css";
-import map from "../../src/assests/eclairsNew.avif";
 import bakeryImg from "../../src/assests/eclair-bakery-img1.jpg";
 import bakeryImg2 from "../../src/assests/bakery-img2.jpg";
 import bakeryImg3 from "../../src/assests/bakery-img3.jpg";
 import bakeryimg4 from "../../src/assests/bakery-img4.webp";
 import bakeryImg5 from "../../src/assests/bakery-img5.jpg";
 import bakeryImg6 from "../../src/assests/bakery-img6.webp";
+import contact from "../assests/contact.png";
 
 function ContactUs() {
   function handleToggle(element) {
@@ -18,11 +18,7 @@ function ContactUs() {
 
       <div className="bottom-container">
         <div className="right-contact-card common">
-          <img
-            src="https://static.wixstatic.com/media/3cdf51_7744972aafa5459cb4eefd19ee79ce73~mv2.png/v1/fill/w_364,h_364,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Grey%20Memorial%20Day%20Instagram%20Post%20(2).png"
-            alt="addressImg"
-            className="add-img"
-          />
+          <img src={contact} alt="addressImg" className="add-img" />
         </div>
         <div className="left-contact-card common">
           <div className="img-container">

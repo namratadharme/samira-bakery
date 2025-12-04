@@ -33,13 +33,10 @@ button {
   font-weight: 900;
 }
 @media (max-width: 768px) {
-  /* Navbar height fix */
   .navbar {
     height: auto !important;
     padding: 10px 0;
   }
-
-  /* Nav links vertical column */
   .nav-bar {
     flex-direction: column !important;
     align-items: center !important;
@@ -51,14 +48,12 @@ button {
     font-size: 17px;
   }
 
-  /* Active link width controlled */
   .active-link {
     width: auto !important;
     padding: 3px 8px;
     border-top: 2px solid #ffdb89;
   }
 
-  /* Shop Now Button Center */
   button {
     display: flex;
     flex-direction: column;

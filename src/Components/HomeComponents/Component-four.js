@@ -12,17 +12,17 @@ function ComponentFour() {
           <img src={newdish} alt="dishImg" className="img2" />
         </div>
         <div className="card-two column">
-          <h2 className="heading-2">Our Signature Eclairs</h2>
-          <p className="paragraph">A MUST FOR ECLAIR LOVERS</p>
+          <h2 className="heading-2">Our Signature Bakery</h2>
+          <p className="paragraph">A MUST FOR Bakery LOVERS</p>
           <span className="under-line"></span>
 
           <span className="span-text">
-            Eclair Bakery is the only New York City-based bakery that<br></br>{" "}
-            offers éclairs with such a wide range of delicious fillings{" "}
+            This Bakery is the only New York City-based bakery that<br></br>
+            offers éclairs with such a wide range of delicious fillings
             <br></br>and toppings.
           </span>
           <span className="span-text">
-            Our eclairs are lovingly hand crafted with a pâte à choux<br></br>
+            Our bakery are lovingly hand crafted with a pâte à choux<br></br>
             dough prepared in small batches throughout the day so<br></br> our
             customers can always get the freshest eclairs<br></br> possible!
           </span>

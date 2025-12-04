@@ -1,4 +1,3 @@
-import HomePage from "./Pages/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/Styles/app.css";
 import Header from "../src/Components/Header";

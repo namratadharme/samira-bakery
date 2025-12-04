@@ -11,7 +11,7 @@ function ComponentTwo() {
         </div>
         <div className="bakery-detail">
           <h2 style={{ fontFamily: "Playfair Display serif" }}>
-            Eclair Bakery
+            Samira Brownies Bakery
           </h2>
           <span
             style={{

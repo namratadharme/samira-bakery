@@ -10,6 +10,14 @@
     flex-direction: column;
     gap: 20px;
   }
+  .card-2 {
+    display: flex;
+  }
+}
+.title {
+  font-family: "Playfair Display";
+  font-size: 30px;
+  text-align: center;
 }
 .card-1 {
   display: flex;
@@ -24,26 +32,35 @@
 .card-2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   flex: 1;
+  gap: 10px;
+}
+.card-2 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 .img-1 {
   height: 180px;
-  width: 50%;
+  width: 45%;
   border-radius: 5px;
 }
 .img-2 {
   height: 180px;
-  width: 50%;
+  width: 45%;
   border-radius: 5px;
 }
 .img-3 {
   height: 180px;
-  width: 50%;
+  width: 45%;
   border-radius: 5px;
 }
 .img-4 {
   height: 180px;
-  width: 50%;
+  width: 45%;
   border-radius: 5px;
 }

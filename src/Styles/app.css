@@ -7,3 +7,6 @@ body {
   flex-direction: column;
   position: relative;
 }
+.bg-info-subtle {
+  background: linear-gradient(to bottom, #dff3f2, #ffffff);
+}

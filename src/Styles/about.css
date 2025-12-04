@@ -13,6 +13,12 @@
     gap: 20px;
     padding: 0 10px 0 10px;
   }
+  .about-bakery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px 0 10px;
+  }
 }
 .left-card {
   display: flex;
@@ -41,15 +47,18 @@
 .about-btn {
   display: flex;
   padding: 10px;
-  background-color: rgb(245, 192, 95);
+  background-color: rgb(194, 145, 53);
   border: none;
   outline: none;
 }
-@media (max-width: 768px) {
-  .about-bakery {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 0 10px 0 10px;
-  }
+.para {
+  font-family: "Poppins" sans-serif;
+  color: #595a59;
+}
+.about-heading {
+  font-family: "Playfair Display", serif;
+}
+.about-head6 {
+  font-size: 20px;
+  text-align: center;
 }

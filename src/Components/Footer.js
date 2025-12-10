@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import image from "../assests/img.png";
+import logoImg from "../assets/img.png";
 
 function Footer() {
   return (
@@ -19,7 +19,7 @@ function Footer() {
           </ul>
         </div>
         <div className="flex-1">
-          <img src={image} alt="image" className="lo-go" />
+          <img src={logoImg} alt="image" className="lo-go" />
           <FontAwesomeIcon icon={faInstagram} size="2x" />
           <span>@ 2016 by Samira brownies Bakery</span>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import men from "../../assests/men.webp";
+import men from "../../assets/men.webp";
 import "../../Styles/componentTwo.css";
 
 function ComponentTwo() {

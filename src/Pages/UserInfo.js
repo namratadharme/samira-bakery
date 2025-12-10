@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/userinfo.css";
-import user from "../assests/user.webp";
+import user from "../assets/user.webp";
 
 function UserInfo() {
   const userDetail = {

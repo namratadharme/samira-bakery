@@ -6,7 +6,7 @@ import ComponentFour from "../Components/HomeComponents/Component-four";
 import ComponentFive from "../Components/HomeComponents/Component-five";
 import ComponentSix from "../Components/HomeComponents/Component-six";
 import ComponentSeven from "../Components/HomeComponents/Component-seven";
-import image from "../assests/img.png";
+import image from "../assets/img.png";
 
 function HomePage() {
   return (

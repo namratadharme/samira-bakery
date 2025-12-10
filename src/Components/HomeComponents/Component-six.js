@@ -1,8 +1,8 @@
 import "../../Styles/componentSix.css";
-import cake1 from "../../assests/cake1.avif";
-import img1 from "../../assests/img1.avif";
-import img2 from "../../assests/img2.avif";
-import eclairsNew from "../../assests/eclairsNew.avif";
+import cake1 from "../../assets/cake1.avif";
+import img1 from "../../assets/img1.avif";
+import img2 from "../../assets/img2.avif";
+import eclairsNew from "../../assets/eclairsNew.avif";
 
 function ComponentSix() {
   return (

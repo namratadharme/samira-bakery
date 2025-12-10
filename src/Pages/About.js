@@ -1,7 +1,7 @@
 import React from "react";
-import about from "../assests/about.jpg";
+import about from "../assets/about.jpg";
 import "../Styles/about.css";
-import grp from "../assests/grp.jpg";
+import grp from "../assets/grp.jpg";
 
 function AboutPage() {
   return (

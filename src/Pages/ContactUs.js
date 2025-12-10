@@ -1,17 +1,12 @@
-import React from "react";
 import "../Styles/contact.css";
-import bakeryImg from "../../src/assests/eclair-bakery-img1.jpg";
-import bakeryImg2 from "../../src/assests/bakery-img2.jpg";
-import bakeryImg3 from "../../src/assests/bakery-img3.jpg";
-import bakeryimg4 from "../../src/assests/bakery-img4.webp";
-import bakeryImg5 from "../../src/assests/bakery-img5.jpg";
-import bakeryImg6 from "../../src/assests/bakery-img6.webp";
-import contact from "../assests/contact.png";
+import bakeryImg2 from "../../src/assets/bakery-img2.jpg";
+import bakeryImg3 from "../../src/assets/bakery-img3.jpg";
+import bakeryimg4 from "../../src/assets/bakery-img4.webp";
+import bakeryImg5 from "../../src/assets/bakery-img5.jpg";
+import bakeryImg6 from "../../src/assets/bakery-img6.webp";
+import contact from "../assets/contact.png";
 
 function ContactUs() {
-  function handleToggle(element) {
-    element.classList.toggle("active");
-  }
   return (
     <div className="contact">
       <div className="contact-bg-img"></div>

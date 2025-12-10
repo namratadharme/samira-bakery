@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Styles/componentFour.css";
-import cake1 from "../../assests/cake1.avif";
-import newdish from "../../assests/newdish.avif";
+import cake1 from "../../assets/cake1.avif";
+import newdish from "../../assets/newdish.avif";
 
 function ComponentFour() {
   return (

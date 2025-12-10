@@ -2,7 +2,6 @@ import react from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/header.css";
-
 import { NavLink } from "react-router-dom";
 
 function Header() {
